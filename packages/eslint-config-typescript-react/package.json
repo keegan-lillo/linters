@@ -17,7 +17,7 @@
     "typescript": "^3.8.3"
   },
   "dependencies": {
-    "@keegan-lillo/eslint-config-typescript": "0.1.0",
+    "@keegan-lillo/eslint-config-typescript": "^0.1.0",
     "eslint-config-standard-react": "^9.2.0",
     "eslint-plugin-react": "^7.19.0"
   }
