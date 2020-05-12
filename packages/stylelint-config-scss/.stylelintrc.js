@@ -1,0 +1,60 @@
+module.exports = {
+  extends: [
+    'stylelint-config-standard',
+    'stylelint-config-css-modules',
+    'stylelint-prettier/recommended',
+  ],
+  plugins: ['stylelint-scss', 'stylelint-order'],
+  rules: {
+    'at-rule-empty-line-before': [
+      'always',
+      {
+        except: ['blockless-after-same-name-blockless', 'first-nested'],
+        ignore: ['after-comment'],
+      },
+    ],
+    'at-rule-name-space-after': 'always',
+    'at-rule-no-unknown': null,
+    'at-rule-no-vendor-prefix': true,
+    'declaration-empty-line-before': [
+      'always',
+      {
+        except: ['first-nested'],
+        ignore: ['after-comment', 'after-declaration'],
+      },
+    ],
+    'function-url-quotes': 'always',
+    'media-feature-name-no-vendor-prefix': true,
+    'no-descending-specificity': null,
+    'order/order': [
+      'dollar-variables',
+      'custom-properties',
+      { name: 'include', type: 'at-rule' },
+      'declarations',
+      { selector: /^&:\w+$/, type: 'rule' },
+      'rules',
+      { hasBlock: true, type: 'at-rule' },
+    ],
+    'order/properties-order': require('./properties-order'),
+    'property-no-vendor-prefix': true,
+    'rule-empty-line-before': [
+      'always-multi-line',
+      {
+        ignore: ['after-comment', 'first-nested'],
+      },
+    ],
+    'scss/at-extend-no-missing-placeholder': true,
+    'scss/at-function-parentheses-space-before': 'never',
+    'scss/at-import-no-partial-leading-underscore': true,
+    'scss/at-mixin-argumentless-call-parentheses': 'always',
+    'scss/at-mixin-parentheses-space-before': 'never',
+    'scss/at-rule-no-unknown': [true, { ignoreAtRules: ['value'] }],
+    'scss/dollar-variable-colon-space-after': 'always',
+    'scss/dollar-variable-colon-space-before': 'never',
+    'scss/double-slash-comment-whitespace-inside': 'always',
+    'selector-max-compound-selectors': 4,
+    'selector-no-vendor-prefix': true,
+    'string-quotes': 'single',
+    'value-no-vendor-prefix': true,
+  },
+}

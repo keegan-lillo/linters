@@ -1,0 +1,37 @@
+{
+  "name": "@keegan-lillo/linters",
+  "version": "0.1.0",
+  "author": "Keegan Lillo <keegan@lillo.me>",
+  "description": "A monorepo for all the linters I use",
+  "license": "MIT",
+  "repository": "keegan-lillo/linters",
+  "homepage": "https://github.com/keegan-lillo/linters",
+  "private": true,
+  "scripts": {
+    "lint": "run-p --aggregate-output lint:*",
+    "lint:css": "stylelint '**/*.{scss,css}'",
+    "lint:js": "eslint '**/*.{js,jsx,ts,tsx}'",
+    "lint:prettier": "prettier . --check"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "eslint": "^7.0.0",
+    "husky": "^4.2.5",
+    "lerna": "^3.20.2",
+    "lint-staged": "^10.2.2",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.0.5"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": "eslint",
+    "*.{scss,css}": "stylelint",
+    "*": "prettier --check"
+  }
+}

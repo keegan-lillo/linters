@@ -1,0 +1,24 @@
+{
+  "name": "@keegan-lillo/eslint-config-typescript-react",
+  "version": "0.1.0",
+  "description": "ESLint Config for React with Typescript",
+  "main": ".eslintrc.js",
+  "repository": "keegan-lillo/linters",
+  "author": "Keegan Lillo <keegan@lillo.me>",
+  "license": "MIT",
+  "files": [
+    "/.eslintrc.js"
+  ],
+  "devDependencies": {
+    "@types/react": "^16.9.35",
+    "eslint": "^7.0.0",
+    "prettier": "^2.0.2",
+    "react": "^16.13.1",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "@keegan-lillo/eslint-config-typescript": "0.1.0",
+    "eslint-config-standard-react": "^9.2.0",
+    "eslint-plugin-react": "^7.19.0"
+  }
+}

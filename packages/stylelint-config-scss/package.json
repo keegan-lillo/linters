@@ -1,0 +1,29 @@
+{
+  "name": "@keegan-lillo/stylelint-config-scss",
+  "version": "0.1.0",
+  "description": "Stylelint Config for SCSS",
+  "main": ".stylelintrc.js",
+  "repository": "keegan-lillo/linters",
+  "author": "Keegan Lillo <keegan@lillo.me>",
+  "license": "MIT",
+  "files": [
+    ".stylelintrc.js",
+    "properties-order.js"
+  ],
+  "devDependencies": {
+    "prettier": "^2.0.5",
+    "stylelint": "^13.3.3"
+  },
+  "peerDependencies": {
+    "prettier": ">=2.0.5",
+    "stylelint": ">=13.3.3"
+  },
+  "dependencies": {
+    "stylelint-config-css-modules": "^2.2.0",
+    "stylelint-config-prettier": "^8.0.1",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-order": "^4.0.0",
+    "stylelint-prettier": "^1.1.2",
+    "stylelint-scss": "^3.17.1"
+  }
+}

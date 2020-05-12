@@ -1,0 +1,4 @@
+{
+  "extends": "./packages/eslint-config-typescript/tsconfig.json",
+  "include": ["**/.*rc.js", "**/*.ts", "**/*.tsx", "**/*.js", "**/*.jsx"]
+}

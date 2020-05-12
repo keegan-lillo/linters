@@ -1,0 +1,18 @@
+{
+  "name": "@keegan-lillo/eslint-config-base",
+  "version": "0.1.0",
+  "description": "Base ESLint config",
+  "main": ".eslintrc.js",
+  "repository": "keegan-lillo/linters",
+  "author": "Keegan Lillo <keegan@lillo.me>",
+  "license": "MIT",
+  "dependencies": {
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-prettier": "^3.1.3",
+    "eslint-plugin-sort-keys-fix": "^1.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.0.0"
+  }
+}

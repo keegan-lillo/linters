@@ -1,0 +1,9 @@
+{
+  "name": "@keegan-lillo/prettier-config",
+  "version": "0.1.0",
+  "description": "Prettier config",
+  "main": ".prettierrc.js",
+  "repository": "keegan-lillo/linters",
+  "author": "Keegan Lillo <keegan@lillo.me>",
+  "license": "MIT"
+}

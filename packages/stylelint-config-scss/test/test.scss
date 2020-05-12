@@ -1,0 +1,8 @@
+$foo: red;
+
+.foo {
+  --var: #123456;
+
+  background: aqua;
+  color: pink;
+}
