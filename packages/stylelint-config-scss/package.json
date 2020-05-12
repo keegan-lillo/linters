@@ -6,6 +6,10 @@
   "repository": "keegan-lillo/linters",
   "author": "Keegan Lillo <keegan@lillo.me>",
   "license": "MIT",
+  "gitHead": "cb5065b3a323454c2c7649b0518b79a468c8bf41",
+  "publishConfig": {
+    "access": "public"
+  },
   "files": [
     ".stylelintrc.js",
     "properties-order.js"
