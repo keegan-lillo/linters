@@ -1,6 +1,6 @@
 {
   "name": "@keegan-lillo/eslint-config-typescript",
-  "version": "0.1.1",
+  "version": "0.2.0-alpha.1",
   "description": "Typescript ESLint config",
   "main": ".eslintrc.js",
   "repository": "keegan-lillo/linters",
@@ -14,7 +14,7 @@
     ".eslintrc.js"
   ],
   "dependencies": {
-    "@keegan-lillo/eslint-config-base": "^0.1.1",
+    "@keegan-lillo/eslint-config-base": "^0.2.0-alpha.1",
     "@typescript-eslint/parser": "^3.2.0",
     "eslint-config-prettier": "^6.11.0",
     "eslint-config-standard-with-typescript": "^18.0.2"
