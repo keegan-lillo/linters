@@ -1,6 +1,6 @@
 module.exports = {
-  extends: ['plugin:prettier/recommended'],
-  plugins: ['import', 'sort-keys-fix'],
+  extends: ['prettier'],
+  plugins: ['import', 'sort-keys-fix', 'prettier'],
   rules: {
     'import/order': [
       'error',
@@ -25,6 +25,7 @@ module.exports = {
         ],
       },
     ],
+    'prettier/prettier': 'error',
     'sort-keys-fix/sort-keys-fix': ['error', 'asc', { natural: true }],
   },
 }

@@ -4,7 +4,7 @@
   "description": "Typescript ESLint config",
   "main": ".eslintrc.js",
   "repository": "keegan-lillo/linters",
-  "author": "Keegan Lillo <keegan@viv.ai>",
+  "author": "Keegan Lillo <keegan@lillo.me>",
   "license": "MIT",
   "gitHead": "cb5065b3a323454c2c7649b0518b79a468c8bf41",
   "publishConfig": {
@@ -15,16 +15,27 @@
   ],
   "dependencies": {
     "@keegan-lillo/eslint-config-base": "^0.1.1",
-    "@typescript-eslint/eslint-plugin": "^2.32.0",
-    "@typescript-eslint/parser": "^2.32.0",
-    "eslint-config-standard-with-typescript": "^16.0.0",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-standard": "^4.0.1",
-    "eslint-plugin-typescript-sort-keys": "^0.8.0"
+    "@typescript-eslint/parser": "^3.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-config-standard-with-typescript": "^18.0.2"
   },
   "devDependencies": {
-    "eslint-plugin-import": "^2.20.2",
-    "typescript": "^3.8.3"
+    "@typescript-eslint/eslint-plugin": "^3.2.0",
+    "eslint": "^7.2.0",
+    "eslint-plugin-import": "^2.21.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.1.3",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-sort-keys-fix": "^1.1.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "eslint-plugin-typescript-sort-keys": "^1.2.0",
+    "prettier": "^2.0.5",
+    "typescript": "^3.9.5"
+  },
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^3.2.0",
+    "eslint": "^7.2.0",
+    "eslint-plugin-typescript-sort-keys": "^1.2.0",
+    "typescript": "^3.9.5"
   }
 }
