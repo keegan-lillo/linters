@@ -14,7 +14,7 @@
     ".eslintrc.js"
   ],
   "scripts": {
-    "lint": "eslint ."
+    "lint": "eslint '**/*.{js,jsx}'"
   },
   "dependencies": {
     "eslint-config-prettier": "^6.11.0"

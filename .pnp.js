@@ -1736,6 +1736,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["@stylelint/postcss-markdown", "virtual:b24fd03f1081e4c3a1115a7f5c73e74f8d900c96bf8ff8dea0c09d5b62dc3d6377f6c39ff8901ebaf0b71f59eab2fd0e761f702b2b3d29f9c1eb50ace02e7d72#npm:0.36.1"],
             ["postcss", "npm:7.0.32"],
+            ["postcss-html", "virtual:b24fd03f1081e4c3a1115a7f5c73e74f8d900c96bf8ff8dea0c09d5b62dc3d6377f6c39ff8901ebaf0b71f59eab2fd0e761f702b2b3d29f9c1eb50ace02e7d72#npm:0.36.0"],
             ["postcss-syntax", "virtual:b24fd03f1081e4c3a1115a7f5c73e74f8d900c96bf8ff8dea0c09d5b62dc3d6377f6c39ff8901ebaf0b71f59eab2fd0e761f702b2b3d29f9c1eb50ace02e7d72#npm:0.36.2"],
             ["remark", "npm:12.0.0"],
             ["unist-util-find-all-after", "npm:3.0.1"]

@@ -12,5 +12,8 @@
   },
   "files": [
     ".prettierrc.js"
-  ]
+  ],
+  "scripts": {
+    "lint": "prettier . --check"
+  }
 }

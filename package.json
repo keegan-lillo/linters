@@ -1,6 +1,5 @@
 {
   "name": "@keegan-lillo/linters",
-  "version": "0.1.0",
   "author": "Keegan Lillo <keegan@lillo.me>",
   "description": "A monorepo for all the linters I use",
   "license": "MIT",

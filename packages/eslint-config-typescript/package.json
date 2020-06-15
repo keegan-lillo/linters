@@ -14,7 +14,7 @@
     ".eslintrc.js"
   ],
   "scripts": {
-    "lint": "eslint ."
+    "lint": "eslint '**/*.{js,jsx,ts,tsx}'"
   },
   "dependencies": {
     "@keegan-lillo/eslint-config-base": "^0.2.0-alpha.2",

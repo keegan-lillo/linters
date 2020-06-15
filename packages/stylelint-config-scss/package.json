@@ -14,6 +14,9 @@
     ".stylelintrc.js",
     "properties-order.js"
   ],
+  "scripts": {
+    "lint": "stylelint '**/*.{scss,css}'"
+  },
   "devDependencies": {
     "prettier": "^2.0.5",
     "stylelint": "^13.6.0"
