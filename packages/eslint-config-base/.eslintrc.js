@@ -1,6 +1,7 @@
 module.exports = {
   extends: ['prettier'],
   plugins: ['import', 'sort-keys-fix', 'prettier'],
+  root: true,
   rules: {
     'import/order': [
       'error',

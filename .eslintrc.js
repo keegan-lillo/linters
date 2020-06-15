@@ -1,5 +1,5 @@
 module.exports = {
-  // extends: ['./packages/eslint-config-typescript-react'],
+  extends: ['./packages/eslint-config-base'],
   ignorePatterns: ['!**/.*rc.js'],
-  // parserOptions: { project: './tsconfig.json' },
+  root: true,
 }
