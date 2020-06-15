@@ -1,12 +1,12 @@
 {
   "name": "@keegan-lillo/eslint-config-base",
-  "version": "0.2.0-alpha.1",
+  "version": "0.2.0-alpha.2",
   "description": "Base ESLint config",
   "main": ".eslintrc.js",
   "repository": "keegan-lillo/linters",
   "author": "Keegan Lillo <keegan@lillo.me>",
   "license": "MIT",
-  "gitHead": "cb5065b3a323454c2c7649b0518b79a468c8bf41",
+  "gitHead": "11588c72f5c71012fdab3ed03404d5b21a8eecdc",
   "publishConfig": {
     "access": "public"
   },
