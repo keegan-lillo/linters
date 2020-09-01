@@ -7,8 +7,11 @@
   "homepage": "https://github.com/keegan-lillo/linters",
   "private": true,
   "scripts": {
+    "lint": "prettier . --check",
     "lint-workspace": "yarn workspaces foreach -p -v run lint ",
-    "lint": "prettier . --check"
+    "preversion": "yarn lint-workspace",
+    "release-alpha": "lerna publish --force-publish --dist-tag alpha",
+    "release": "lerna publish --force-publish"
   },
   "workspaces": [
     "packages/*"
