@@ -1,6 +1,6 @@
 {
   "name": "@keegan-lillo/eslint-config-typescript-react",
-  "version": "0.2.0",
+  "version": "0.3.0-alpha.0",
   "description": "ESLint Config for React with Typescript",
   "main": ".eslintrc.js",
   "repository": "keegan-lillo/linters",
@@ -17,7 +17,7 @@
     "lint": "eslint '**/*.{js,jsx,ts,tsx}'"
   },
   "dependencies": {
-    "@keegan-lillo/eslint-config-typescript": "^0.2.0",
+    "@keegan-lillo/eslint-config-typescript": "^0.3.0-alpha.0",
     "@rushstack/eslint-patch": "^1.0.3",
     "eslint-config-prettier": "^6.11.0",
     "eslint-config-standard-react": "^9.2.0",
