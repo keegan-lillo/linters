@@ -1,6 +1,6 @@
 {
   "name": "@keegan-lillo/stylelint-config-scss",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Stylelint Config for SCSS",
   "main": ".stylelintrc.js",
   "repository": "keegan-lillo/linters",
