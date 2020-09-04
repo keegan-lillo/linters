@@ -1,6 +1,6 @@
 /* eslint-env es6 */
 
-module.exports = function test() {
+module.exports = function test({ paramA = 'test', paramB }) {
   const foo = {
     'a': 1,
     'b': '2',

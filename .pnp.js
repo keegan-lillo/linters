@@ -441,6 +441,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-config-prettier", "virtual:07f576543c07538e88e4856966520c9e62b4dd56bc0f4c663d2851e6f602c7dcfa867bdd569ef9c792fc8faa5731f0f8d0de2fe94976aa48239466b2fd2ba876#npm:6.11.0"],
             ["eslint-plugin-import", "virtual:07f576543c07538e88e4856966520c9e62b4dd56bc0f4c663d2851e6f602c7dcfa867bdd569ef9c792fc8faa5731f0f8d0de2fe94976aa48239466b2fd2ba876#npm:2.22.0"],
             ["eslint-plugin-prettier", "virtual:07f576543c07538e88e4856966520c9e62b4dd56bc0f4c663d2851e6f602c7dcfa867bdd569ef9c792fc8faa5731f0f8d0de2fe94976aa48239466b2fd2ba876#npm:3.1.4"],
+            ["eslint-plugin-sort-destructure-keys", "virtual:07f576543c07538e88e4856966520c9e62b4dd56bc0f4c663d2851e6f602c7dcfa867bdd569ef9c792fc8faa5731f0f8d0de2fe94976aa48239466b2fd2ba876#npm:1.3.5"],
             ["eslint-plugin-sort-keys-fix", "npm:1.1.1"],
             ["prettier", "npm:2.1.1"]
           ],
@@ -461,6 +462,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-config-prettier", "virtual:07f576543c07538e88e4856966520c9e62b4dd56bc0f4c663d2851e6f602c7dcfa867bdd569ef9c792fc8faa5731f0f8d0de2fe94976aa48239466b2fd2ba876#npm:6.11.0"],
             ["eslint-plugin-import", "virtual:07f576543c07538e88e4856966520c9e62b4dd56bc0f4c663d2851e6f602c7dcfa867bdd569ef9c792fc8faa5731f0f8d0de2fe94976aa48239466b2fd2ba876#npm:2.22.0"],
             ["eslint-plugin-prettier", "virtual:07f576543c07538e88e4856966520c9e62b4dd56bc0f4c663d2851e6f602c7dcfa867bdd569ef9c792fc8faa5731f0f8d0de2fe94976aa48239466b2fd2ba876#npm:3.1.4"],
+            ["eslint-plugin-sort-destructure-keys", "virtual:07f576543c07538e88e4856966520c9e62b4dd56bc0f4c663d2851e6f602c7dcfa867bdd569ef9c792fc8faa5731f0f8d0de2fe94976aa48239466b2fd2ba876#npm:1.3.5"],
             ["eslint-plugin-sort-keys-fix", "npm:1.1.1"],
             ["prettier", "npm:2.1.1"]
           ],
@@ -5168,6 +5170,22 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["prop-types", "npm:15.7.2"],
             ["resolve", "patch:resolve@npm%3A1.17.0#builtin<compat/resolve>::version=1.17.0&hash=3388aa"],
             ["string.prototype.matchall", "npm:4.0.2"]
+          ],
+          "packagePeers": [
+            "@types/eslint",
+            "eslint"
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["eslint-plugin-sort-destructure-keys", [
+        ["virtual:07f576543c07538e88e4856966520c9e62b4dd56bc0f4c663d2851e6f602c7dcfa867bdd569ef9c792fc8faa5731f0f8d0de2fe94976aa48239466b2fd2ba876#npm:1.3.5", {
+          "packageLocation": "./.yarn/$$virtual/eslint-plugin-sort-destructure-keys-virtual-0899a3d845/0/cache/eslint-plugin-sort-destructure-keys-npm-1.3.5-75fa7d2e03-4557c6e607.zip/node_modules/eslint-plugin-sort-destructure-keys/",
+          "packageDependencies": [
+            ["eslint-plugin-sort-destructure-keys", "virtual:07f576543c07538e88e4856966520c9e62b4dd56bc0f4c663d2851e6f602c7dcfa867bdd569ef9c792fc8faa5731f0f8d0de2fe94976aa48239466b2fd2ba876#npm:1.3.5"],
+            ["@types/eslint", null],
+            ["eslint", "npm:7.8.0"],
+            ["natural-compare-lite", "npm:1.4.0"]
           ],
           "packagePeers": [
             "@types/eslint",

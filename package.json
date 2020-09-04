@@ -9,9 +9,8 @@
   "scripts": {
     "lint": "prettier . --check",
     "lint-workspace": "yarn workspaces foreach -p -v run lint ",
-    "preversion": "yarn lint-workspace",
-    "release-alpha": "lerna publish --force-publish --dist-tag alpha",
-    "release": "lerna publish --force-publish"
+    "release-alpha": "yarn lint-workspace && lerna publish --force-publish --dist-tag alpha",
+    "release": "yarn lint-workspace && lerna publish --force-publish"
   },
   "workspaces": [
     "packages/*"
