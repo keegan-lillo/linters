@@ -337,7 +337,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@keegan-lillo/eslint-config-base@^0.3.0, @keegan-lillo/eslint-config-base@workspace:packages/eslint-config-base":
+"@keegan-lillo/eslint-config-base@^0.4.0, @keegan-lillo/eslint-config-base@workspace:packages/eslint-config-base":
   version: 0.0.0-use.local
   resolution: "@keegan-lillo/eslint-config-base@workspace:packages/eslint-config-base"
   dependencies:
@@ -359,7 +359,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@keegan-lillo/eslint-config-typescript-react@workspace:packages/eslint-config-typescript-react"
   dependencies:
-    "@keegan-lillo/eslint-config-typescript": ^0.3.0
+    "@keegan-lillo/eslint-config-typescript": ^0.4.0
     "@rushstack/eslint-patch": ^1.0.3
     "@types/react": ^16.9.49
     eslint: ^7.8.1
@@ -380,11 +380,11 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@keegan-lillo/eslint-config-typescript@^0.3.0, @keegan-lillo/eslint-config-typescript@workspace:packages/eslint-config-typescript":
+"@keegan-lillo/eslint-config-typescript@^0.4.0, @keegan-lillo/eslint-config-typescript@workspace:packages/eslint-config-typescript":
   version: 0.0.0-use.local
   resolution: "@keegan-lillo/eslint-config-typescript@workspace:packages/eslint-config-typescript"
   dependencies:
-    "@keegan-lillo/eslint-config-base": ^0.3.0
+    "@keegan-lillo/eslint-config-base": ^0.4.0
     "@rushstack/eslint-patch": ^1.0.3
     "@typescript-eslint/eslint-plugin": ^4.0.1
     "@typescript-eslint/parser": ^4.0.1
@@ -6237,7 +6237,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"json-schema@npm:^0.2.5, json-schema@npm:~0.2.5":
+"json-schema@npm:~0.2.5":
   version: 0.2.5
   resolution: "json-schema@npm:0.2.5"
   checksum: 553d8f98467d27b7a15445e1b21b0edc1ab3fc374b80f3f659b672b65cf132a4854b6d676625f221d80340aa922cd37c0cff1ad3ad5389474f4a5c1079d2c97b

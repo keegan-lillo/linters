@@ -1925,8 +1925,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@typescript-eslint/typescript-estree", "virtual:57d1ef9d9eac4f793ea736392a8f3f45d9683994d3e410a876cd52e91f9e3e517256c38254c07bdca2f4cbacf83d769c177c45f655cbeb906cdd3d6cc97ce441#npm:2.32.0"],
             ["eslint", "npm:7.8.1"],
             ["eslint-scope", "npm:5.1.0"],
-            ["eslint-utils", "npm:2.1.0"],
-            ["json-schema", "npm:0.2.5"]
+            ["eslint-utils", "npm:2.1.0"]
           ],
           "packagePeers": [
             "@types/eslint",
