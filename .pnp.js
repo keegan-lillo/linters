@@ -64,7 +64,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["@yarnpkg/doctor", "npm:2.1.1"],
             ["eslint", "npm:7.8.1"],
-            ["husky", "npm:4.2.5"],
+            ["husky", "npm:4.3.0"],
             ["lerna", "npm:3.22.1"],
             ["lint-staged", "npm:10.3.0"],
             ["prettier", "npm:2.1.1"],
@@ -555,7 +555,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@keegan-lillo/linters", "workspace:."],
             ["@yarnpkg/doctor", "npm:2.1.1"],
             ["eslint", "npm:7.8.1"],
-            ["husky", "npm:4.2.5"],
+            ["husky", "npm:4.3.0"],
             ["lerna", "npm:3.22.1"],
             ["lint-staged", "npm:10.3.0"],
             ["prettier", "npm:2.1.1"],
@@ -4072,18 +4072,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "HARD",
         }],
-        ["npm:6.0.0", {
-          "packageLocation": "./.yarn/cache/cosmiconfig-npm-6.0.0-cb7d64a2b9-bbd6bbaefe.zip/node_modules/cosmiconfig/",
-          "packageDependencies": [
-            ["cosmiconfig", "npm:6.0.0"],
-            ["@types/parse-json", "npm:4.0.0"],
-            ["import-fresh", "npm:3.2.1"],
-            ["parse-json", "npm:5.1.0"],
-            ["path-type", "npm:4.0.0"],
-            ["yaml", "npm:1.10.0"]
-          ],
-          "linkType": "HARD",
-        }],
         ["npm:7.0.0", {
           "packageLocation": "./.yarn/cache/cosmiconfig-npm-7.0.0-b9d0d7d156-151fcb9177.zip/node_modules/cosmiconfig/",
           "packageDependencies": [
@@ -5975,7 +5963,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["inflight", "npm:1.0.6"],
             ["inherits", "npm:2.0.4"],
             ["minimatch", "npm:3.0.4"],
-            ["once", "npm:1.3.3"],
+            ["once", "npm:1.4.0"],
             ["path-is-absolute", "npm:1.0.1"]
           ],
           "linkType": "HARD",
@@ -6393,14 +6381,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["husky", [
-        ["npm:4.2.5", {
-          "packageLocation": "./.yarn/unplugged/husky-npm-4.2.5-30d80a2ef8/node_modules/husky/",
+        ["npm:4.3.0", {
+          "packageLocation": "./.yarn/unplugged/husky-npm-4.3.0-b6c2d49d0e/node_modules/husky/",
           "packageDependencies": [
-            ["husky", "npm:4.2.5"],
+            ["husky", "npm:4.3.0"],
             ["chalk", "npm:4.1.0"],
             ["ci-info", "npm:2.0.0"],
             ["compare-versions", "npm:3.6.0"],
-            ["cosmiconfig", "npm:6.0.0"],
+            ["cosmiconfig", "npm:7.0.0"],
             ["find-versions", "npm:3.2.0"],
             ["opencollective-postinstall", "npm:2.0.3"],
             ["pkg-dir", "npm:4.2.0"],
@@ -6569,7 +6557,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/inflight-npm-1.0.6-ccedb4b908-17c53fc42c.zip/node_modules/inflight/",
           "packageDependencies": [
             ["inflight", "npm:1.0.6"],
-            ["once", "npm:1.3.3"],
+            ["once", "npm:1.4.0"],
             ["wrappy", "npm:1.0.2"]
           ],
           "linkType": "HARD",
@@ -9565,7 +9553,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["pump", "npm:2.0.1"],
             ["end-of-stream", "npm:1.4.4"],
-            ["once", "npm:1.3.3"]
+            ["once", "npm:1.4.0"]
           ],
           "linkType": "HARD",
         }],
@@ -9574,7 +9562,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["pump", "npm:3.0.0"],
             ["end-of-stream", "npm:1.4.4"],
-            ["once", "npm:1.3.3"]
+            ["once", "npm:1.4.0"]
           ],
           "linkType": "HARD",
         }]
@@ -9823,7 +9811,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["debuglog", "npm:1.0.1"],
             ["dezalgo", "npm:1.0.3"],
             ["graceful-fs", "npm:4.2.4"],
-            ["once", "npm:1.3.3"]
+            ["once", "npm:1.4.0"]
           ],
           "linkType": "HARD",
         }]
@@ -12116,7 +12104,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/wide-align-npm-1.1.3-48c7d4953c-4f850f84da.zip/node_modules/wide-align/",
           "packageDependencies": [
             ["wide-align", "npm:1.1.3"],
-            ["string-width", "npm:1.0.2"]
+            ["string-width", "npm:2.1.1"]
           ],
           "linkType": "HARD",
         }]
