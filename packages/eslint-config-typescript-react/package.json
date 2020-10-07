@@ -18,20 +18,20 @@
   },
   "dependencies": {
     "@keegan-lillo/eslint-config-typescript": "^0.4.0",
-    "@rushstack/eslint-patch": "^1.0.3",
-    "eslint-config-prettier": "^6.11.0",
+    "@rushstack/eslint-patch": "^1.0.5",
+    "eslint-config-prettier": "^6.12.0",
     "eslint-config-standard-react": "^9.2.0",
     "eslint-import-resolver-node": "^0.3.4",
-    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-react": "^7.20.6"
+    "eslint-plugin-react": "^7.21.3"
   },
   "devDependencies": {
     "@types/react": "^16.9.49",
-    "eslint": "^7.8.1",
-    "prettier": "^2.1.1",
+    "eslint": "^7.10.0",
+    "prettier": "^2.1.2",
     "react": "^16.13.1",
-    "typescript": "^4.0.2"
+    "typescript": "^4.0.3"
   },
   "peerDependencies": {
     "eslint": "*",
