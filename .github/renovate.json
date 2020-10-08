@@ -1,4 +1,13 @@
 {
-  "extends": ["config:base", ":preserveSemverRanges", ":prHourlyLimitNone"],
+  "extends": [
+    "group:all",
+    ":ignoreUnstable",
+    ":prImmediately",
+    ":semanticPrefixFixDepsChoreOthers",
+    ":updateNotScheduled",
+    ":automergeDisabled",
+    ":preserveSemverRanges",
+    ":prHourlyLimitNone"
+  ],
   "schedule": ["at any time"]
 }
