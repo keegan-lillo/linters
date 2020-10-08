@@ -1,6 +1,10 @@
 {
-  "extends": ["config:base", "group:all", ":preserveSemverRanges"],
+  "extends": [
+    "config:base",
+    "group:all",
+    ":preserveSemverRanges",
+    ":prHourlyLimitNone"
+  ],
   "lockFileMaintenance": { "enabled": true },
-  "prHourlyLimit": 10,
   "schedule": ["at any time"]
 }
