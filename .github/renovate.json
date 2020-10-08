@@ -7,8 +7,8 @@
     ":updateNotScheduled",
     ":automergeDisabled",
     ":preserveSemverRanges",
-    ":prHourlyLimitNone"
+    ":prHourlyLimitNone",
+    ":autodetectPinVersions"
   ],
-  "schedule": ["at any time"],
-  "rangeStrategy": "bump"
+  "schedule": ["at any time"]
 }
