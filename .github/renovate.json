@@ -1,0 +1,4 @@
+{
+  "extends": ["config:base", "schedule:earlyMondays", "group:all"],
+  "lockFileMaintenance": { "enabled": true }
+}
