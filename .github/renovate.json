@@ -3,8 +3,8 @@
     "config:base",
     "group:all",
     ":preserveSemverRanges",
-    ":prHourlyLimitNone"
+    ":prHourlyLimitNone",
+    ":maintainLockFilesDisabled"
   ],
-  "lockFileMaintenance": { "enabled": true },
   "schedule": ["at any time"]
 }
