@@ -1,4 +1,4 @@
 {
-  "extends": ["config:base", "group:all"],
+  "extends": ["config:base", "group:all", ":preserveSemverRanges"],
   "lockFileMaintenance": { "enabled": true }
 }
