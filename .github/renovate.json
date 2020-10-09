@@ -10,5 +10,5 @@
     ":prHourlyLimitNone"
   ],
   "schedule": ["at any time"],
-  "rangeStrategy": "update-lockfile"
+  "rangeStrategy": "bump"
 }
