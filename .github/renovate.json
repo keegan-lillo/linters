@@ -8,7 +8,7 @@
     ":automergeDisabled",
     ":preserveSemverRanges",
     ":prHourlyLimitNone",
-    ":autodetectPinVersions"
+    ":preserveSemverRanges"
   ],
   "schedule": ["at any time"]
 }
