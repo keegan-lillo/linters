@@ -10,5 +10,6 @@
     ":prHourlyLimitNone"
   ],
   "schedule": ["at any time"],
-  "rangeStrategy": "update-lockfile"
+  "rangeStrategy": "update-lockfile",
+  "ignoreDeps": ["@yarnpkg/doctor"]
 }
