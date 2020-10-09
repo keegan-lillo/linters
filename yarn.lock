@@ -438,8 +438,8 @@ __metadata:
     stylelint-prettier: ^1.1.2
     stylelint-scss: ^3.18.0
   peerDependencies:
-    prettier: ">=2.0.5"
-    stylelint: ">=13.3.3"
+    prettier: "*"
+    stylelint: "*"
   languageName: unknown
   linkType: soft
 
