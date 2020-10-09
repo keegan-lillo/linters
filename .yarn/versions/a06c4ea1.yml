@@ -1,9 +1,0 @@
-releases:
-
-
-undecided:
-  - "@keegan-lillo/linters"
-  - "@keegan-lillo/eslint-config-base"
-  - "@keegan-lillo/eslint-config-typescript"
-  - "@keegan-lillo/eslint-config-typescript-react"
-  - "@keegan-lillo/prettier-config"
