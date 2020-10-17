@@ -38,6 +38,7 @@ module.exports = {
     '@typescript-eslint/restrict-template-expressions': 'off',
     '@typescript-eslint/strict-boolean-expressions': 'off',
     'no-unused-expressions': 'off', // Fix for optional chaining
+    'no-void': ['error', { allowAsStatement: true }],
     'typescript-sort-keys/interface': 'error',
     'typescript-sort-keys/string-enum': 'error',
   },
