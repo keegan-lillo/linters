@@ -6,6 +6,7 @@ module.exports = {
     '@keegan-lillo/eslint-config-typescript',
     'prettier/react',
   ],
+  plugins: ['react-hooks'],
   root: true,
   rules: {
     'react/prop-types': 'off',
@@ -29,5 +30,7 @@ module.exports = {
         ],
       },
     ],
+    'react-hooks/exhaustive-deps': 'error',
+    'react-hooks/rules-of-hooks': 'error',
   },
 }
