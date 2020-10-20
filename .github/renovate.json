@@ -11,5 +11,6 @@
   ],
   "schedule": ["at any time"],
   "rangeStrategy": "bump",
-  "ignoreDeps": ["@yarnpkg/doctor"]
+  "ignoreDeps": ["@yarnpkg/doctor"],
+  "renovateVersion": "23.53.0"
 }
