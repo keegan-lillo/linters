@@ -2,14 +2,12 @@
   "extends": [
     "group:all",
     ":ignoreUnstable",
-    ":prImmediately",
     ":semanticPrefixFixDepsChoreOthers",
     ":updateNotScheduled",
     ":automergeDisabled",
     ":preserveSemverRanges",
-    ":prHourlyLimitNone"
+    ":schedule:earlyMondays"
   ],
-  "schedule": ["at any time"],
   "rangeStrategy": "bump",
   "ignoreDeps": ["@yarnpkg/doctor"]
 }
