@@ -6,7 +6,7 @@
     ":updateNotScheduled",
     ":automergeDisabled",
     ":preserveSemverRanges",
-    ":schedule:earlyMondays"
+    "schedule:earlyMondays"
   ],
   "rangeStrategy": "bump",
   "ignoreDeps": ["@yarnpkg/doctor"]
