@@ -4,7 +4,7 @@ module.exports = {
   extends: [
     'standard-with-typescript',
     '@keegan-lillo/eslint-config-base',
-    'prettier/@typescript-eslint',
+    'prettier',
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: { project: './tsconfig.json' },
