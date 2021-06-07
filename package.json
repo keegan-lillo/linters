@@ -12,7 +12,8 @@
     "no-modified": "scripts/no-modified.sh",
     "release-alpha": "yarn no-modified && doctor && yarn lint-workspace && lerna publish --force-publish --dist-tag alpha",
     "release": "yarn no-modified && doctor && yarn lint-workspace && lerna publish --force-publish",
-    "postinstall": "husky install"
+    "postinstall": "husky install",
+    "version": "yarn install && git add yarn.lock"
   },
   "workspaces": [
     "packages/*"
