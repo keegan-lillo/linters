@@ -1,4 +1,4 @@
-name: Publish
+name: Release
 
 on:
   workflow_dispatch:
@@ -8,7 +8,7 @@ on:
         required: true
 
 jobs:
-  publish:
+  release:
     runs-on: ubuntu-latest
 
     steps:
@@ -24,6 +24,8 @@ jobs:
 
       - name: Release
         run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
           echo //registry.npmjs.org/:_authToken=${NPM_TOKEN} > .npmrc
           yarn release --yes ${{ github.event.inputs.version }}
           git push
