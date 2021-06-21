@@ -1,6 +1,6 @@
 {
   "name": "@keegan-lillo/eslint-config-base",
-  "version": "0.7.3",
+  "version": "0.7.4",
   "description": "Base ESLint config",
   "main": ".eslintrc.js",
   "repository": "keegan-lillo/linters",
