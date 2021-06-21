@@ -1,0 +1,31 @@
+name: Lint
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Version'
+        required: true
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Use Node.js 12.x
+        uses: actions/setup-node@v2
+        with:
+          node-version: '12'
+
+      - name: Install Dependencies
+        run: yarn install --immutable --immutable-cache
+
+      - name: Release
+        run: |
+          echo //registry.npmjs.org/:_authToken=${NPM_TOKEN} > .npmrc
+          yarn release --yes ${{ github.event.inputs.version }}
+          git push
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
