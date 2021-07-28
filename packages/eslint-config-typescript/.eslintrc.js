@@ -3,6 +3,7 @@ require('@rushstack/eslint-patch/modern-module-resolution')
 module.exports = {
   extends: [
     'standard-with-typescript',
+    'plugin:jest/recommended',
     '@keegan-lillo/eslint-config-base',
     'prettier',
   ],
@@ -37,6 +38,7 @@ module.exports = {
     ],
     '@typescript-eslint/restrict-template-expressions': 'off',
     '@typescript-eslint/strict-boolean-expressions': 'off',
+    'jest/no-deprecated-functions': 'off',
     'no-unused-expressions': 'off', // Fix for optional chaining
     'no-void': ['error', { allowAsStatement: true }],
     'typescript-sort-keys/interface': 'error',
