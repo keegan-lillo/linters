@@ -101,7 +101,7 @@ Stylelint Config for SCSS with some very strict property ordering.
 ##### Install the dependencies
 
 ```shell
-yarn add -D @keegan-lillo/eslint-stylelint-config-scss
+yarn add -D @keegan-lillo/stylelint-config-scss
 ```
 
 ##### Stylelint

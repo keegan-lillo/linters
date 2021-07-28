@@ -2,7 +2,9 @@ require('@rushstack/eslint-patch/modern-module-resolution')
 
 module.exports = {
   extends: [
+    'standard-jsx',
     'standard-react',
+    'plugin:jsx-a11y/recommended',
     '@keegan-lillo/eslint-config-typescript',
     'prettier',
   ],
