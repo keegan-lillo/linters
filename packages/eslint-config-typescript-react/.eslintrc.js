@@ -8,6 +8,12 @@ module.exports = {
     '@keegan-lillo/eslint-config-typescript',
     'prettier',
   ],
+  overrides: [
+    {
+      extends: ['plugin:testing-library/react'],
+      files: ['**/__tests__/**/*.[jt]s?(x)', '**/?(*.)+(spec|test).[jt]s?(x)'],
+    },
+  ],
   plugins: ['react-hooks'],
   root: true,
   rules: {

@@ -3,9 +3,17 @@ require('@rushstack/eslint-patch/modern-module-resolution')
 module.exports = {
   extends: [
     'standard-with-typescript',
-    'plugin:jest/recommended',
     '@keegan-lillo/eslint-config-base',
     'prettier',
+  ],
+  overrides: [
+    {
+      extends: ['plugin:jest/recommended'],
+      files: ['**/__tests__/**/*.[jt]s?(x)', '**/?(*.)+(spec|test).[jt]s?(x)'],
+      rules: {
+        'jest/no-deprecated-functions': 'off',
+      },
+    },
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: { project: './tsconfig.json' },
@@ -38,7 +46,6 @@ module.exports = {
     ],
     '@typescript-eslint/restrict-template-expressions': 'off',
     '@typescript-eslint/strict-boolean-expressions': 'off',
-    'jest/no-deprecated-functions': 'off',
     'no-unused-expressions': 'off', // Fix for optional chaining
     'no-void': ['error', { allowAsStatement: true }],
     'typescript-sort-keys/interface': 'error',

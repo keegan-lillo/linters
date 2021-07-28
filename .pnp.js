@@ -522,6 +522,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-node", "virtual:4734bd10f66150111de8677e9127515521af1fdda174942f0ac9913d5771c3b8404a5b3525e9b0c3b17848bd7a8d21d831e18750a888f93caf7f1be81b61db62#npm:11.1.0"],
             ["eslint-plugin-react", "virtual:8f4fb50a3a06f38e1fcc2fa847e46bc279f0e19eab4655bf0c8528d55b8649a1dee1904160baa0714e8058e1449632f7d95fa9fdd1356473e5bc612b54a42207#npm:7.24.0"],
             ["eslint-plugin-react-hooks", "virtual:8f4fb50a3a06f38e1fcc2fa847e46bc279f0e19eab4655bf0c8528d55b8649a1dee1904160baa0714e8058e1449632f7d95fa9fdd1356473e5bc612b54a42207#npm:4.2.0"],
+            ["eslint-plugin-testing-library", "virtual:8f4fb50a3a06f38e1fcc2fa847e46bc279f0e19eab4655bf0c8528d55b8649a1dee1904160baa0714e8058e1449632f7d95fa9fdd1356473e5bc612b54a42207#npm:4.10.1"],
             ["prettier", "npm:2.3.2"],
             ["react", "npm:17.0.2"],
             ["typescript", "patch:typescript@npm%3A4.3.5#builtin<compat/typescript>::version=4.3.5&hash=ddfc1b"]
@@ -5461,6 +5462,29 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["esutils", "npm:2.0.3"],
             ["natural-compare", "npm:1.4.0"],
             ["requireindex", "npm:1.2.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["eslint-plugin-testing-library", [
+        ["npm:4.10.1", {
+          "packageLocation": "./.yarn/cache/eslint-plugin-testing-library-npm-4.10.1-7ff74c45c1-8096be5c41.zip/node_modules/eslint-plugin-testing-library/",
+          "packageDependencies": [
+            ["eslint-plugin-testing-library", "npm:4.10.1"]
+          ],
+          "linkType": "SOFT",
+        }],
+        ["virtual:8f4fb50a3a06f38e1fcc2fa847e46bc279f0e19eab4655bf0c8528d55b8649a1dee1904160baa0714e8058e1449632f7d95fa9fdd1356473e5bc612b54a42207#npm:4.10.1", {
+          "packageLocation": "./.yarn/$$virtual/eslint-plugin-testing-library-virtual-d79b59262a/0/cache/eslint-plugin-testing-library-npm-4.10.1-7ff74c45c1-8096be5c41.zip/node_modules/eslint-plugin-testing-library/",
+          "packageDependencies": [
+            ["eslint-plugin-testing-library", "virtual:8f4fb50a3a06f38e1fcc2fa847e46bc279f0e19eab4655bf0c8528d55b8649a1dee1904160baa0714e8058e1449632f7d95fa9fdd1356473e5bc612b54a42207#npm:4.10.1"],
+            ["@types/eslint", null],
+            ["@typescript-eslint/experimental-utils", "virtual:72ff87d0f25446e5c17ada298a9b214a6095cb0a90261194e0548287e60d59b5325b5e752cc14e80517fe64c021c7ffd8a4a6a268d41922299af78ce35afcf33#npm:4.28.5"],
+            ["eslint", "npm:7.31.0"]
+          ],
+          "packagePeers": [
+            "@types/eslint",
+            "eslint"
           ],
           "linkType": "HARD",
         }]
