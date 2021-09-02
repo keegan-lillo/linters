@@ -9,5 +9,5 @@
     "schedule:earlyMondays"
   ],
   "rangeStrategy": "bump",
-  "ignoreDeps": ["@yarnpkg/doctor"]
+  "ignoreDeps": []
 }
