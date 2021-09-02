@@ -13,6 +13,6 @@ jobs:
         with:
           node-version: '12'
       - name: Install Dependencies
-        run: yarn install --immutable --immutable-cache
+        run: yarn install --immutable --immutable-cache --check-cache
       - name: Lint
         run: yarn lint-workspace
