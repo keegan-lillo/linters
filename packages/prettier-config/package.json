@@ -1,6 +1,6 @@
 {
   "name": "@keegan-lillo/prettier-config",
-  "version": "0.10.0",
+  "version": "0.10.1",
   "description": "Prettier config",
   "main": ".prettierrc.js",
   "repository": "keegan-lillo/linters",
