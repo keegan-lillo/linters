@@ -6389,7 +6389,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/gonzales-pe-npm-4.3.0-82921c6976-49d60fc49a.zip/node_modules/gonzales-pe/",
           "packageDependencies": [
             ["gonzales-pe", "npm:4.3.0"],
-            ["minimist", "npm:1.2.5"]
+            ["minimist", "npm:1.2.8"]
           ],
           "linkType": "HARD",
         }]
@@ -6444,7 +6444,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/handlebars-npm-4.7.6-f64e7514e4-6fb9ba14c7.zip/node_modules/handlebars/",
           "packageDependencies": [
             ["handlebars", "npm:4.7.6"],
-            ["minimist", "npm:1.2.5"],
+            ["minimist", "npm:1.2.8"],
             ["neo-async", "npm:2.6.2"],
             ["source-map", "npm:0.6.1"],
             ["uglify-js", "npm:3.10.3"],
@@ -7484,7 +7484,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/json5-npm-1.0.1-647fc8794b-e76ea23dbb.zip/node_modules/json5/",
           "packageDependencies": [
             ["json5", "npm:1.0.1"],
-            ["minimist", "npm:1.2.5"]
+            ["minimist", "npm:1.2.8"]
           ],
           "linkType": "HARD",
         }],
@@ -7492,7 +7492,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/json5-npm-2.1.3-b71ec6bcca-b2de57a665.zip/node_modules/json5/",
           "packageDependencies": [
             ["json5", "npm:2.1.3"],
-            ["minimist", "npm:1.2.5"]
+            ["minimist", "npm:1.2.8"]
           ],
           "linkType": "HARD",
         }]
@@ -8080,7 +8080,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["decamelize", "npm:1.2.0"],
             ["loud-rejection", "npm:1.6.0"],
             ["map-obj", "npm:1.0.1"],
-            ["minimist", "npm:1.2.5"],
+            ["minimist", "npm:1.2.8"],
             ["normalize-package-data", "npm:2.5.0"],
             ["object-assign", "npm:4.1.1"],
             ["read-pkg-up", "npm:1.0.1"],
@@ -8240,10 +8240,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["minimist", [
-        ["npm:1.2.5", {
-          "packageLocation": "./.yarn/cache/minimist-npm-1.2.5-ced0e1f617-86706ce5b3.zip/node_modules/minimist/",
+        ["npm:1.2.8", {
+          "packageLocation": "./.yarn/cache/minimist-npm-1.2.8-d7af7b1dce-75a6d645fb.zip/node_modules/minimist/",
           "packageDependencies": [
-            ["minimist", "npm:1.2.5"]
+            ["minimist", "npm:1.2.8"]
           ],
           "linkType": "HARD",
         }]
@@ -8367,7 +8367,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/mkdirp-npm-0.5.5-6bc76534fc-3bce20ea52.zip/node_modules/mkdirp/",
           "packageDependencies": [
             ["mkdirp", "npm:0.5.5"],
-            ["minimist", "npm:1.2.5"]
+            ["minimist", "npm:1.2.8"]
           ],
           "linkType": "HARD",
         }],
@@ -10988,7 +10988,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["strong-log-transformer", "npm:2.1.0"],
             ["duplexer", "npm:0.1.2"],
-            ["minimist", "npm:1.2.5"],
+            ["minimist", "npm:1.2.8"],
             ["through", "npm:2.3.8"]
           ],
           "linkType": "HARD",
@@ -11522,7 +11522,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["tsconfig-paths", "npm:3.11.0"],
             ["@types/json5", "npm:0.0.29"],
             ["json5", "npm:1.0.1"],
-            ["minimist", "npm:1.2.5"],
+            ["minimist", "npm:1.2.8"],
             ["strip-bom", "npm:3.0.0"]
           ],
           "linkType": "HARD",
